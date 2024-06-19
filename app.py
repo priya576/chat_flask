@@ -28,6 +28,10 @@ def download_hugging_face_embeddings():
 
 query = "I am having fever for 3-4 days.what disease it may be"
 
+@app.route('/')
+def home():
+    return "Welcome to the Flask Backend!"
+
 @app.route('/ask_question', methods=['POST'])
 def ask_question():
     data = request.json
