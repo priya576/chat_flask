@@ -8,3 +8,5 @@ langchain_huggingface
 sentence-transformers
 Gunicorn
 langchain_community
+faiss-cpu
+huggingface_hub
